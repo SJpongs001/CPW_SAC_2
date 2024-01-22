@@ -1,0 +1,232 @@
+/*--------------------------Responsetive---------------------*/
+
+/* .bg{
+    background-color: rgb(232, 237, 251);
+    min-width: 1000px;
+    width: 1600px;
+    max-width: 1650px;
+    /* width: 1650px; 
+} */
+.bgbox {
+    background-color: rgba(60, 61, 66, 0.886);
+}
+/*-----------------------------SCROLL BAR------------------------*/
+.scrollbox {
+    text-align: justify;
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-slider-thumb {
+        color: #000;
+    }
+}
+
+/* General */
+
+.inputbox {
+    margin-left: 30px;
+    padding: 5px;
+    width: 400px;
+    height: 50px;
+    
+    border-radius: 10px;
+    border-color: dimgrey;
+}
+
+/*-----------------------------HEADER------------------------*/
+
+
+    header {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        background-color: rgb(203, 4 , 112);
+    }
+    
+    #Logo {
+        width: 600;
+        height: 100px;
+        padding-left: 10px;
+    }
+    
+    nav {
+        padding-top: 15px;
+        padding-bottom: 10px;
+        background-color: #230085;
+    }
+
+
+
+
+/*----------------------- MENU BAR (Admin)-------------------------*/
+
+.Menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 138px;
+    height: max-content;
+    min-height: 1030px;
+    max-height: 5100px;
+    background-color: rgb(39, 38, 38);
+    display: inline-flex ; 
+
+}
+
+#foot-bar {
+    width: 1900px;
+    color: aliceblue;
+    text-align: center;
+    background: rgb(203, 4 , 112) ;
+}
+
+span {
+    display: inline;
+}
+.inline {
+    display: inline;
+}
+
+.Test {
+    display: inline-block
+}
+
+#MenuLogo {
+    font-size: 14px;
+    color: aliceblue;
+    }
+    .icon {
+    margin-top: 55px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    }
+    .acticon {
+    margin-top: 95px;
+    margin-bottom: 9px;
+    padding-bottom: 10px;
+    margin-left: 3px;
+    width: 70px;
+    height: 70px;
+    }
+    #ActLogo {
+    font-size: 14px;
+    color: aliceblue;
+    }
+    body {
+    background-color: rgb(199, 203, 211);
+    }
+/*---
+    #Chat {
+    width: 10px;
+    height: 5px;
+    float: left;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-left: 810px;
+    margin-right: 10px;
+    }
+    .Chatposition {
+    width: 410px;
+    height: 700px;
+    }
+
+    #Inbox {
+    width: 10px;
+    height: 1px;
+    float: left;
+    list-style-type: none;
+    padding-top: 2px;
+    padding-left: 150px;
+    margin-right: 10px;
+    }
+    .Inboxposition {
+    width: 800px;
+    height: 680px;
+    }
+
+--*/
+
+    /*------------------CHATAREA-------------------------*/
+
+    /*------------------ Inbox Area --------------------*/
+
+    /*-------------------SEARCH----------------------------*/
+
+    /*-------------------TorTlew----------------------------*/
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+        }
+        .profile-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        }
+        .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+
+/*------------------------LoginBox---------------------*/
+
+#LoginBox {
+    width: 10%;
+}
+
+#HeadLogin {
+    background-color: deeppink;
+    color: aliceblue;
+}
+
+#LoginBG {
+        background-image: url("../public/Picture/Flowers.jpg");
+        width: 1555px;
+        height: 880px;
+
+}
+
+
+
+/* ------------------------------CHAT STYLE -----------------------## */
+
+.ProfilePicture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.spanfont {
+    font-size: 18px;
+    font-weight: 500; 
+}
+
+.pfont {
+    font-size: 16px;
+    color: lightgray;
+} 
+
+
+/* ------------------------- Set permission  -----------------------## */
+
+p.round3 {
+    width: 1350px; 
+    height: 680px;
+    border: 2px;
+    border-radius: 12px;
+    padding: 5px;
+
+    background-color: green;
+    opacity: 0.3;
+
+  }
+
+  /* ---------------------------- DASHBOARD --------------- */
+
+  bodyarea {
+    background-color: rgb(157, 203, 255);
+  }
+
+
